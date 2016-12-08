@@ -233,7 +233,6 @@ GameObject:
   - component: {fileID: 327049004}
   - component: {fileID: 327049006}
   - component: {fileID: 327049005}
-  - component: {fileID: 327048929}
   m_Layer: 0
   m_Name: windows
   m_TagString: Untagged
@@ -1532,20 +1531,6 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300154, guid: 483daafefc2c24f14be8f17971e3b29a, type: 3}
---- !u!64 &327048929
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 327048856}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300152, guid: 483daafefc2c24f14be8f17971e3b29a, type: 3}
 --- !u!64 &327048930
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2101,7 +2086,7 @@ MeshCollider:
   m_GameObject: {fileID: 327048896}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Convex: 0
   m_InflateMesh: 0
